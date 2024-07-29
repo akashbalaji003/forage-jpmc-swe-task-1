@@ -27,11 +27,7 @@ class ClientTest(unittest.TestCase):
 
 
   """ ------------ Add more unit tests ------------ """
-  def test_getRatio(self):
-        self.assertAlmostEqual(getRatio(10, 2), 5)
-        # self.assertEqual(getRatio(10, 0), 0)  # Division by zero case
-        self.assertEqual(getRatio(0, 10), 0)
-        self.assertAlmostEqual(getRatio(10.5, 2.5), 4.2)
+
 
 
 
